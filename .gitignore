@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!dev/
+dev/*
+!dev/html/
+dev/html/*
+!dev/html/assignment-1.html
