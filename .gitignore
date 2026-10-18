@@ -3,6 +3,14 @@
 
 !dev/
 dev/*
+
 !dev/html/
 dev/html/*
 !dev/html/assignment-1.html
+
+!dev/HTML5/
+dev/HTML5/*
+!dev/HTML5/assignment-1.html
+!dev/HTML5/assignment-2.html
+!dev/HTML5/assignment-3.html
+!dev/HTML5/assignment-4.html
