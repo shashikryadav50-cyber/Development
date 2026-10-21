@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 12 - HTML Multimedia</title>
+</head>
+
+<body>
+
+    <h1>HTML Multimedia - Audio and Video</h1>
+
+    <h2>1. Simple Audio</h2>
+    <audio src="./sound.mp3" controls></audio>
+    <br><br>
+
+    <h2>2. Autoplay Audio</h2>
+    <audio src="./sound.mp3" autoplay muted controls></audio>
+    <br><br>
+
+    <h2>3. Loop Audio</h2>
+    <audio src="./sound.mp3" loop controls></audio>
+    <br><br>
+
+    <h2>4. Simple Video</h2>
+    <video width="400" height="300" controls>
+        <source src="./test%20video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+    <br><br>
+
+    
+<h2>5. Autoplay Video</h2>
+<video width="400" height="300"
+       autoplay muted playsinline controls>
+    <source src="./test%20video.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+</video>
+<br><br>
+
+    
+
+    <h2>6. Loop Video</h2>
+    <video width="400" height="300" loop controls>
+        <source src="./test%20video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+    <br><br>
+
+    
+<h2>7. Video with Poster</h2>
+
+<video width="400" height="300"
+       poster="./poster.png"
+       controls>
+    <source src="./test%20video.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+</video>
+<br><br>
+
+
+    <h2>8. Embedded YouTube Video</h2>
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ScMzIvxBSi4"
+        title="Embedded YouTube Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <br><br>
+
+</body>
+
+</html>
